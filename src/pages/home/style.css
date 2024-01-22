@@ -219,6 +219,8 @@ section {
         align-items: center;
     }
 
+
+    
     .intro_sec .intro_btn-action .ac_btn {
         margin-right: 0; /* Remove right margin on mobile */
         width: 100%; /* Full width for buttons */
