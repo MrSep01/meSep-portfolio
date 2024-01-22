@@ -111,20 +111,20 @@ export const ContactUs = () => {
             </address>
             <p>{contactConfig.description}</p>
           </Col>
-          <Col lg="7" className="d-flex align-items-center">
+          <Col lg="7" className="d-flex align-items-center ">
             <form onSubmit={handleSubmit} className="contact__form w-100">
               <Row>
                 <Col lg="6" className="form-group">
-                  <input
-                    className="form-control"
-                    id="name"
-                    name="name"
-                    placeholder="Name"
-                    value={formData.name || ""}
-                    type="text"
-                    required
-                    onChange={handleChange}
-                  />
+                <input
+  className="form-control"
+  id="name"
+  name="name"
+  placeholder="Name"
+  value={formData.name || ""}
+  type="text"
+  required
+  onChange={handleChange}
+/>
                 </Col>
                 <Col lg="6" className="form-group">
                   <input

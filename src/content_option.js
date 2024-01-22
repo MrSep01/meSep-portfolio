@@ -19,46 +19,24 @@ const introdata = {
 
 const dataabout = {
     title: "a little about me",
-    aboutme: "I am a Full Stack Developer, a product manager, and an instructional designer. My passion is to create products that are useful, usable, and beautiful. I have a background in science and education. I have taught science and math for 5 years. I have a master's degree in instructional design and technology. I have worked as an instructional designer for 2 years. I have a certificate in full-stack development from the University of New",
+    aboutme: "A Full Stack Developer bootcamp graduate with a keen interest in a software developer position. Experience in Agile-focused product management and technical expertise. Proven ability to translate business requirements into development tasks and oversee major projects. Proficient in both front-end and back-end development, with a background in biochemistry and international science education. Strong communicator and collaborator building on years of teaching experience.",
 };
-const worktimeline = [{
-        jobtitle: "Director of developer relations",
-        where: "mimik",
-        date: "2020-2023",
-    },
-    {
-        jobtitle: "MYP & DP Science Teacher",
-        where: "Beanstalk International Bilingual School",
-        date: "2018-2020",
-    },
-    {
-        jobtitle: "Math & Science Teacher",
-        where: "Anglo Singapore International School",
-        date: "2018",
-    },
-];
 
-const skills = [{
+
+const technicalskills = [{
         name: "Javsacript",
         value: 90,
     },
     {
-        name: "React",
-        value: 85,
-    },
-    {
-        name: "HTML",
-        value: 100,
-    },
-    {
-        name: "CSS",
-        value: 100,
-    },
-    {
-        name: "Node",
+        name: "React (MERN)",
         value: 85,
     },
 
+    {
+    name: "HTML, CSS, Bootstrap, MaterialUI",
+    value: 85,
+},
+   
     {
         name: "MongoDB",
         value: 85,
@@ -69,17 +47,103 @@ const skills = [{
         value: 85,
     },
 
-    {
-        name: "Python",
-        value: 85,
-    },
 
 
 ];
 
-const services = [{
-        title: "UI & UX Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+
+const professionalskills = [{
+    name: "Full Stack Web Development",
+    value: 90,
+},
+{
+    name: "Product Management",
+    value: 85,
+},
+{
+    name: "Agile Project Management",
+    value: 100,
+},
+
+{
+    name: "Instructional Design",
+    value: 85,
+}, 
+{
+    name: "Exceptional analytical & `problem-solving skills",
+    value: 100,
+},
+{
+    name: "Confluence, Jira, Slack, Hubspot",
+    value: 85,
+},
+
+{
+    name: "Strategic Planning & Execution",
+    value: 85,
+},
+
+{   name: "Excellent communication & presentation skills",
+    value: 85,
+},
+
+{
+    name: "Team Leadership",
+    value: 85,
+},
+
+{
+    name: "Cross-functional Collaboration",
+    value: 85,
+
+},
+
+
+{
+    name: "Developer relations & community management",
+    value: 85,
+}
+
+];
+
+
+const education = [{
+    title: "Full Stack Developer - Web Development Bootcamp   (January 2024)",
+    description: [
+        "University of Northern British Columbia, Prince George, BC",  
+
+         "GPA: 3.67",
+
+        "Focus on biochemistry and molecular biology",
+       
+    ],
+
+},
+{
+    title: "Master of Business Administration (MBA)  (Dec 2024)",   
+    description: "Illinois Institute of Technology, Chicago, Illinois.",
+},
+{
+    title: "Master of Education (M.Ed.) in International Teaching (May 2017)",  
+    description: "Framingham State University, Framingham, MA. GPA 3.97.",
+},
+
+{
+    title: "Bachelor of Science (B.Sc.) in Biochemistry &amp; Molecular Biology (May 2011)",
+    description: "University of Northern British Columbia, Prince George, BC GPA 3.67.",
+},
+];
+
+const workexperience = [{
+        title: "Director of Academy & Developer Relations",
+        description:
+        [ <strong>mimik Technology Inc. Vancouver (Remote) ---      April 2019- July 2020 </strong>,
+        "- Led the launch of training, certification, and developer series programs.",
+         "- Enhanced developer engagement by 25% through streamlined experiences.",
+        "- Improved customer retention by focusing on quality support, and training.",
+        "- Enhanced cross-team communication by aligning product and market strategies."
+
+        ],  
     },
     {
         title: "Mobile Apps",
@@ -90,6 +154,9 @@ const services = [{
         description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
     },
 ];
+
+
+
 
 const dataportfolio = [{
         img: "https://storage.googleapis.com/sepsimagerepo/Screenshot%202024-01-20%20at%2015.33.27.jpg",
@@ -136,9 +203,10 @@ export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
-    skills,
-    services,
+    technicalskills,
+    professionalskills,
+    workexperience,
+    education,
     introdata,
     contactConfig,
     socialprofils,
