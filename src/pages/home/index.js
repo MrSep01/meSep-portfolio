@@ -51,7 +51,7 @@ export const Home = () => {
                   </Link>
                   <Link to="/about">
                     <div id="button_h" className="ac_btn btn">
-                      MY Resume
+                      MY  CV
                       <div className="ring one"></div>
                       <div className="ring two"></div>
                       <div className="ring three"></div>

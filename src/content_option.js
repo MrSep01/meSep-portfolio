@@ -32,6 +32,11 @@ const technicalskills = [{
         value: 85,
     },
 
+    { 
+        name: "Node.js",
+        value: 90,
+    },
+
     {
     name: "HTML, CSS, Bootstrap, MaterialUI",
     value: 85,
@@ -39,7 +44,7 @@ const technicalskills = [{
    
     {
         name: "MongoDB",
-        value: 85,
+        value: 90,
     },
 
     {
@@ -47,6 +52,9 @@ const technicalskills = [{
         value: 85,
     },
 
+    { name: "GraphQL",
+      value: 85,
+},
 
 
 ];
@@ -54,54 +62,54 @@ const technicalskills = [{
 
 const professionalskills = [{
     name: "Full Stack Web Development",
-    value: 90,
+    value: 80,
 },
 {
     name: "Product Management",
-    value: 85,
+    value: 95,
 },
 {
     name: "Agile Project Management",
-    value: 100,
+    value: 90,
 },
 
 {
     name: "Instructional Design",
-    value: 85,
+    value: 100,
 }, 
 {
-    name: "Exceptional analytical & `problem-solving skills",
+    name: " Analytical & `Problem-solving Skills",
     value: 100,
 },
 {
     name: "Confluence, Jira, Slack, Hubspot",
-    value: 85,
+    value: 100,
 },
 
 {
     name: "Strategic Planning & Execution",
-    value: 85,
+    value: 90,
 },
 
-{   name: "Excellent communication & presentation skills",
-    value: 85,
+{   name: "Communication & Presentation Skills",
+    value: 100,
 },
 
 {
     name: "Team Leadership",
-    value: 85,
+    value: 100,
 },
 
 {
     name: "Cross-functional Collaboration",
-    value: 85,
+    value: 100,
 
 },
 
 
 {
     name: "Developer relations & community management",
-    value: 85,
+    value: 100,
 }
 
 ];
@@ -177,7 +185,7 @@ const workexperience = [{
 
 
     {
-        title: "Subject Head &amp; Chemistry Teacher",
+        title: "Subject Head & Chemistry Teacher",
         description: [<strong>Bangkok Christian College, Bangkok, Thailand--- May 2012 - May 2018</strong> ,
         "- Delivered Math and Science education to upper primary students using innovative and differentiated teaching methods.",
     ]
