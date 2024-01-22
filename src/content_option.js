@@ -8,7 +8,7 @@ const introdata = {
     title: "I am SEP ALAMOUTI ",
     animated: {
         first: "I am a Full Stack Developer",
-        second: " a product manager,", 
+        second: " a product manager", 
         third: "Instructional designer ",
         fourth: "I code, lead teams & design products ",
         fifth: "I develop web applications ",
@@ -237,7 +237,7 @@ const certifications = [
 
 
 const dataportfolio = [{
-        img: "https://storage.googleapis.com/sepsimagerepo/Screenshot%202024-01-20%20at%2015.33.27.jpg",
+        img: "https://storage.googleapis.com/sepsimagerepo/Screenshot%202024-01-20%20at%2015.33.27%202.jpg",
         description: "React developer portal for mimiK hybrid edge cloud platform",
         link: "https://developer.mimik.com",
     },
@@ -248,7 +248,7 @@ const dataportfolio = [{
         link: "https://bhansi.github.io/BigBinge/",
     },
     {
-        img: "https://storage.googleapis.com/sepsimagerepo/Screenshot%202024-01-20%20at%2021.46.21.jpg",
+        img: "https://storage.googleapis.com/sepsimagerepo/Screenshot%202024-01-22%20at%2015.33.01.png",
         description: " Kaizen-esque: A MERN stack App  that allows users to create course and enroll .",
         link: "https://kaizen-esque.onrender.com/",
     },
@@ -258,6 +258,23 @@ const dataportfolio = [{
         description: "Gatsby based Devdocs for mimik hybrid edge cloud platform ",
         link: "https://devdocs.mimik.com",
     },
+
+    {
+        img: "https://storage.googleapis.com/sepsimagerepo/Screenshot%202024-01-22%20at%2015.01.42.jpg",
+        description: " SkySight Weather Forcast; A simple and easy to use Weather Forecast WebApp .",
+        link: "https://mrsep01.github.io/SkySight-Weather/",
+    },
+
+    {
+        img:"https://storage.googleapis.com/sepsimagerepo/Image%202024-01-22%20at%2015.08.jpg",
+        description: "Employee Syeteem System; A simple and easy to use SQL based  Management System.",
+        link: "https://github.com/MrSep01/Employee-Management-System",
+    },
+
+
+
+
+
     
 ];
 
