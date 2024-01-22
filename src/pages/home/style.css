@@ -108,11 +108,13 @@ section {
     cursor: pointer;
     border-radius: 0;
     margin-right: 20px;
+    margin-bottom: 10px;
 }
 
 .ac_btn a {
     text-decoration: none;
 }
+
 
 .ac_btn:hover {
     box-shadow: 8px 8px 0px var(--text-color), -8px -8px 0px var(--text-color);
@@ -206,7 +208,24 @@ section {
         left: 50%;
         transform: translate(-50%, 50%);
     }
+
+    
 }
+
+@media (max-width: 991.98px) {
+    .intro_sec .intro_btn-action {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro_sec .intro_btn-action .ac_btn {
+        margin-right: 0; /* Remove right margin on mobile */
+        width: 100%; /* Full width for buttons */
+    }
+}
+
+
 
 .intro_sec .h_bg-image .block .wrap-icon {
     font-size: 40px;
