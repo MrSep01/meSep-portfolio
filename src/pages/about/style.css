@@ -71,6 +71,20 @@
 }
 
 
+.certification-item {
+    margin-bottom: 10px;
+  }
+  
+  .certification-title {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .certification-details {
+    font-style: italic;
+    color: var(--secondary-color);
+  }
+
 /*! CSS Used keyframes */
 
 @-webkit-keyframes fadeInUp {

@@ -110,12 +110,7 @@ const professionalskills = [{
 const education = [{
     title: "Full Stack Developer - Web Development Bootcamp   (January 2024)",
     description: [
-        "University of Northern British Columbia, Prince George, BC",  
-
-         "GPA: 3.67",
-
-        "Focus on biochemistry and molecular biology",
-       
+        "University of New Brunswick, Fredericton, NB. --- GPA 4.0",  
     ],
 
 },
@@ -125,19 +120,19 @@ const education = [{
 },
 {
     title: "Master of Education (M.Ed.) in International Teaching (May 2017)",  
-    description: "Framingham State University, Framingham, MA. GPA 3.97.",
+    description: "Framingham State University, Framingham, MA. --- GPA 3.97.",
 },
 
 {
-    title: "Bachelor of Science (B.Sc.) in Biochemistry &amp; Molecular Biology (May 2011)",
-    description: "University of Northern British Columbia, Prince George, BC GPA 3.67.",
+    title: "Bachelor of Science (B.Sc.) in Biochemistry (May 2011)",
+    description: "University of Northern British Columbia, Prince George, BC --- GPA 3.67.",
 },
 ];
 
 const workexperience = [{
         title: "Director of Academy & Developer Relations",
         description:
-        [ <strong>mimik Technology Inc. Vancouver (Remote) ---      April 2019- July 2020 </strong>,
+        [ <strong>mimik Technology Inc. Vancouver, Oakland (Remote) ---      April 2019- July 2020 </strong>,
         "- Led the launch of training, certification, and developer series programs.",
          "- Enhanced developer engagement by 25% through streamlined experiences.",
         "- Improved customer retention by focusing on quality support, and training.",
@@ -146,15 +141,98 @@ const workexperience = [{
         ],  
     },
     {
-        title: "Mobile Apps",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Community Ambassador &amp; Founding Member",
+        description: 
+        [<strong>Developer Marketing Alliance, San Francisco, CA --- September 2022-present</strong> ,
+        "- Spearheaded the development of the developer ambassadorship program.",
+
+
+    ]
     },
     {
-        title: "Wordpress Design",
-        description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum sollicitudin.",
+        title: "Subject Head & Science Teacher",
+        description: [<strong>BIBS - Beanstalk International School, Chengdu, Sichuan --- April 2019 - July 2020</strong> ,
+        "- Developed and implemented an inquiry-based science curriculum.",
+    ]
+        
+    },
+
+    {
+        title: "Director of Academy & Educational Consultant",
+        description: [<strong>Bangkok Oxford Institute, Bangkok, Thailand --- January 2011 - December 2018</strong> ,
+        "- Co-founded the institute, providing educational consultation for international students.",
+    ]
+        
+    },
+
+    {
+        title: "Mathematics & Science Teacher",
+        description: [<strong>Anglo Singapore International School, Bangkok, Thailand--- May 2018 - October 2018</strong> ,
+        "- Developed and taught comprehensive chemistry courses and laboratory curriculum.",
+        "- Conducted teacher training workshops, promoting effective educational strategies.",
+    
+    ]
+        
+    },
+
+
+    {
+        title: "Subject Head &amp; Chemistry Teacher",
+        description: [<strong>Bangkok Christian College, Bangkok, Thailand--- May 2012 - May 2018</strong> ,
+        "- Delivered Math and Science education to upper primary students using innovative and differentiated teaching methods.",
+    ]
+        
+    },
+
+
+    {
+        title: "Mathemaics & Science Teacher",
+        description: [<strong>Ladprao Billingual School, Bangkok, Thailand--- May 2009 - May 2012</strong> ,
+        "- Taught Math and Science to upper primary students.",
+    ]
+        
     },
 ];
 
+
+
+
+const certifications = [
+    {
+        title: "Certified Full Stack Developer",
+        issuer: "University of New Brunswick",
+        year: "2024",
+    },
+    {
+        title: "Certified Product Manager",
+        issuer: "Brain Station",
+        year: "2022",
+
+
+
+    },
+
+
+    {
+        title: "IB Certified Teacher (K-12)",
+        issuer: "International Baccalaureate Organizatio",
+        year: "2019",
+
+
+        
+    },
+
+    {
+        title: "Certified Teacher (K-12)",
+        issuer: "Thailand Ministry of Education",
+        year: "2017",
+
+
+        
+    },
+
+    
+];
 
 
 
@@ -211,4 +289,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    certifications,
 };

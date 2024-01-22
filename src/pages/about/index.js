@@ -8,7 +8,9 @@ import {
   technicalskills,
   professionalskills,
   education,
-  workexperience
+  workexperience,
+  certifications
+
 } from "../../content_option";
 
 export const About = () => {
@@ -124,6 +126,24 @@ export const About = () => {
             ))}
           </Col>
         </Row>
+
+ 
+        <Row className="sec_sp">
+          <Col lg="5">
+            <h3 className="color_sec py-4">Certifications</h3>
+          </Col>
+          <Col lg="7">
+            {certifications.map((cert, i) => (
+              <div key={i} className="certification-item">
+                <h5 className="certification-title">{cert.title}</h5>
+                <p className="certification-details">
+                  Issued by {cert.issuer}, {cert.year}
+                </p>
+              </div>
+            ))}
+          </Col>
+        </Row>
+
       </Container>
     </HelmetProvider>
   );
